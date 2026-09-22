@@ -12,14 +12,13 @@ Cenário: Acessar o catalago de cafés na pagina principal
 @temp
 Cenário: Iniciar uma compra
     Dado que estou na pagina principal da loja
-        E que desejo comprar o produto "Winter Top"
-        E que esse produto custa R$ 600
-        E que o custo de entrega é de R$ 10
+        E que desejo comprar o seguinte produto:
+        |product | Winter Top |
+        |price   | Rs. 600    |
     Quando inicio a compra desse item
     Então devo ver a pagina de Checkout com os detalhes do produto
-        E o valor total da compra deve ser R$ 600
+        E o valor total da compra deve ser "Rs. 600"
 
-@temp
 Cenario: Produto indisponivel
     Dado que estou na pagina principal da loja
         E que desejo comprar o produto "Stylish Dress"
