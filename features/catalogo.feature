@@ -9,7 +9,6 @@ Cenário: Acessar o catalago de cafés na pagina principal
     Quando acesso a pagina principal da Starbugs
     Então eu devo ver uma lista de cafés disponiveis
 
-@temp
 Cenário: Iniciar uma compra
     Dado que estou na pagina principal da loja
         E que desejo comprar o seguinte produto:
